@@ -1,7 +1,7 @@
 # Gravity driven infiltration with the development of a saturated region
 ## Authors
-- Mohammad Afzal Shadab
-- Marc Andre Hesse
+- Mohammad Afzal Shadab (mashadab@utexas.edu)
+- Marc Andre Hesse (mhesse@jsg.utexas.edu)
 
 ## Affiliation
 Oden Institute for Computational Engineering and Sciences / Jackson School of Geosciences / University of Texas Institute for Geophysics
