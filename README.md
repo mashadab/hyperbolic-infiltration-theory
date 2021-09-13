@@ -7,7 +7,7 @@
 Oden Institute for Computational Engineering and Sciences / Jackson School of Geosciences / University of Texas Institute for Geophysics
 The University of Texas at Austin
 
-## 3-line Summary
+## 4-line Summary
 Hyperbolic (kinematic wave) analysis in infiltration theory is a technique to estimate the ponding time and runoff estimates in low-textured soils. The proposed theory can be applied to general soil profiles. The codes provide the analytical solutions for infiltration in soils with two-layer, exponential and power-law porosity decay profiles. The results have been validated with numerical solver and Hydrus simulations.
 
 ## Citation
