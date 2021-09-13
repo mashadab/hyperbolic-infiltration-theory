@@ -26,7 +26,7 @@ Key points of the present work:
 <p align="center">
 <img src="./Figures/Cover.png" height="370">
 </p>
-Figure : Schematic showing gravity-driven infiltration in a soil with porosity $` \phi `$ decay with depth. The colors blue, brown, white refer to water, soil and gas respectively. A fully saturated region $` \Omega(t) `$ develops within an otherwise unsaturated domain. The saturated-unsaturated region boundary $\partial \Omega (t)$ has a boundary condition of water-gas pressure equivalence, i.e., $ `p_w=p_g=0` $. The saturated region $` \Omega (t) `$ expands with time as $` \partial \Omega (t) `$ moves in outward direction.
+Figure : Schematic showing gravity-driven infiltration in a soil with porosity $` \phi `$ decay with depth. The colors blue, brown, white refer to water, soil and gas respectively. A fully saturated region $` \Omega(t) `$ develops within an otherwise unsaturated domain. The saturated-unsaturated region boundary $\partial \Omega (t)$ has a boundary condition of water-gas pressure equivalence. The saturated region expands with time as the boundary $` \partial \Omega (t) `$ moves in outward direction.
 
 ### Dependences
 
