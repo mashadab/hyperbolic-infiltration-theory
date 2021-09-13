@@ -8,6 +8,7 @@ from scipy.integrate import solve_ivp
 import scipy.optimize as opt
 from matplotlib import cm         #color map
 plt.rcParams.update({'font.family': "Serif"})
+plt.rcParams.update({'font.size': 22})
 #For plotting in a different window:  %matplotlib qt 
 
 #############################################################

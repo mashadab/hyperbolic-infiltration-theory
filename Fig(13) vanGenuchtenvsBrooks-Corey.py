@@ -60,6 +60,6 @@ plt.yticks(fontsize='medium')
 plt.ylim([-0.01,1.01])
 plt.tight_layout(pad=0.4, w_pad=0.5, h_pad=1.0)
 plt.axis('equal')
-plt.savefig(f"hydrus_fluxes.pdf")
+plt.savefig(f"./Figures/hydrus_fluxes.pdf")
 
 

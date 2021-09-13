@@ -149,7 +149,7 @@ ax3.set_title(r'''%.2f ($t_s'$)'''%(ts+0.005), fontsize='medium')
 ax5.set_title(r'''%.2f ($t_p'$)'''%tp, fontsize='medium')
 ax1.legend(loc='lower left', shadow=False, fontsize='medium')
 plt.xlabel("Volume fractions $\phi$", fontsize='medium')
-plt.savefig(f"{simulation_name}_CL{theta_U}CR{theta_L}_phiL{phi_U}phiR{phi_L}.pdf")
+plt.savefig(f"./Figures/{simulation_name}_CL{theta_U}CR{theta_L}_phiL{phi_U}phiR{phi_L}.pdf")
 
 
 print("############################################################# \n")
@@ -167,7 +167,7 @@ ax6.plot(S_w_analy_int_combined[:,5],zc , c = 'k',linestyle='--')
 ax3.set_title(r'''%.2f ($t_s'$)'''%(ts+0.005), fontsize='medium')
 ax5.set_title(r'''%.2f ($t_p'$)'''%tp, fontsize='medium')
 plt.xlabel("Water saturation $s_w$", fontsize='medium')
-plt.savefig(f"swvsZpanelshock_{simulation_name}_CL{theta_U}CR{theta_L}_phiL{phi_U}phiR{phi_L}.pdf")
+plt.savefig(f"./Figures/swvsZpanelshock_{simulation_name}_CL{theta_U}CR{theta_L}_phiL{phi_U}phiR{phi_L}.pdf")
 
 
 print("############################################################# \n")
@@ -201,4 +201,4 @@ plt.yticks(fontsize='medium')
 plt.xlim([np.min(T), np.max(T)])
 plt.ylim([0,round(np.max(QS),1)+0.1])
 plt.tight_layout(pad=0.4, w_pad=0.5, h_pad=1.0)
-plt.savefig(f"ICvsT_shock_{simulation_name}_CL{theta_U}CR{theta_L}_phiL{phi_U}phiR{phi_L}.pdf")
+plt.savefig(f"./Figures/ICvsT_shock_{simulation_name}_CL{theta_U}CR{theta_L}_phiL{phi_U}phiR{phi_L}.pdf")

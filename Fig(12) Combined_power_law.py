@@ -87,7 +87,7 @@ plt.yticks(fontsize='medium')
 plt.xlim([np.min(T), 0.5])
 plt.ylim([0,0.85])
 plt.tight_layout(pad=0.4, w_pad=0.5, h_pad=1.0)
-plt.savefig(f"ICvsT_Rarray_{simulation_name}_phi0{phi_0}.pdf")
+plt.savefig(f"./Figures/ICvsT_Rarray_{simulation_name}_phi0{phi_0}.pdf")
 
 print('\n')
 print("############################################################# \n")
@@ -158,7 +158,7 @@ plt.yticks(fontsize='medium')
 plt.xlim([np.min(T), 0.5])
 plt.ylim([0,0.85])
 plt.tight_layout(pad=0.4, w_pad=0.5, h_pad=1.0)
-plt.savefig(f"ICvsT_phi0array_{simulation_name}_phi0{phi_0}.pdf")
+plt.savefig(f"./Figures/ICvsT_phi0array_{simulation_name}_phi0{phi_0}.pdf")
 
 
 
