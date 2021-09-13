@@ -22,7 +22,7 @@ Key points of the present work:
 1. Derived relations for infiltration due to transitional rainfall in a dry soil with general porosity decay with depth
 2. Integrated the fully-saturated elliptic region inside an otherwise unsaturated hyperbolic region
 
-<!--    ![cover](/src/paper/Cover.png?raw=true). -->
+![cover](/Figures/Cover.png?raw=true)
 
 ### Dependences
 
@@ -34,4 +34,7 @@ SeepagePINN requires the following packages to function:
 
 
 ### Quick Usage
+After cloning the repository and installing the required libraries, run the python files corresponding to the figure numbers as given in the paper. Codes can be run either directly or on an IDE such as Anaconda Spyder. *supporting_tools.py* is the file containing the auxillaries. Figure 14 and 15 correspond to a Hydrus 1D file for infiltration in two-layered soil.
+
+### Non-dimensionalization
 
