@@ -23,7 +23,9 @@ Key points of the present work:
 1. Derived relations for infiltration due to transitional rainfall in a dry soil with general porosity decay with depth
 2. Integrated the fully-saturated elliptic region inside an otherwise unsaturated hyperbolic region
 
-<img src="./Figures/Cover.png" height="324">
+<p align="center">
+<img src="./Figures/Cover.png" height="370">
+<\p>
 *Figure : Schematic showing gravity-driven infiltration in a soil with porosity $`\phi`$ decay with depth. The colors blue, brown, white refer to water, soil and gas respectively. A fully saturated region $`\Omega(t)`$ develops within an otherwise unsaturated domain. The saturated-unsaturated region boundary $\partial \Omega (t)$ has a boundary condition of water-gas pressure equivalence, i.e., $`p_w=p_g=0`$. The saturated region $`\Omega (t)`$ expands with time as $`\partial \Omega (t)`$ moves in outward direction.
 
 ### Dependences
