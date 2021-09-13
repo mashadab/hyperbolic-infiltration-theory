@@ -23,7 +23,7 @@ Key points of the present work:
 1. Derived relations for infiltration due to transitional rainfall in a dry soil with general porosity decay with depth
 2. Integrated the fully-saturated elliptic region inside an otherwise unsaturated hyperbolic region
 
-![cover](/Figures/Cover.png?raw=true=x250)
+![cover](/Figures/Cover.png?raw=true=x100)
 
 ### Dependences
 
