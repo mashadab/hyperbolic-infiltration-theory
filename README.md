@@ -27,7 +27,7 @@ Key points of the present work:
 
 ### Dependences
 
-SeepagePINN requires the following packages to function:
+hyperbolic-infiltration-theory requires the following packages to function:
 - [Python](https://www.python.org/) version 3.5+
 - [Numpy](http://www.numpy.org/) >= 1.16
 - [scipy](https://www.scipy.org/) >=1.5
