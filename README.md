@@ -7,6 +7,7 @@
 Oden Institute for Computational Engineering and Sciences / Jackson School of Geosciences / University of Texas Institute for Geophysics
 The University of Texas at Austin
 
+## 3-line Summary
 Hyperbolic (kinematic wave) analysis in infiltration theory is a technique to estimate the ponding time and runoff estimates in low-textured soils. The proposed theory can be applied to general soil profiles. The codes provide the analytical solutions for infiltration in soils with two-layer, exponential and power-law porosity decay profiles. The results have been validated with numerical solver and Hydrus simulations.
 
 ## Citation
@@ -37,4 +38,4 @@ SeepagePINN requires the following packages to function:
 After cloning the repository and installing the required libraries, run the python files corresponding to the figure numbers as given in the paper. Codes can be run either directly or on an IDE such as Anaconda Spyder. *supporting_tools.py* is the file containing the auxillaries. Figure 14 and 15 correspond to a Hydrus 1D file for infiltration in two-layered soil.
 
 ### Non-dimensionalization
-
+The depth coordinate $z$ is scaled with characteristic length $z_0$, time is scaled with characteristic time $z_0/f_c$ and infiltration rate $I(t)$ (or volumetric flux) is scaled with the infiltration capacity $f_c$. Therefore, the dimensionless variables are $z'=z/z_0$, $t'=tf_c/z_0$, and $f'=f/f_c$.
