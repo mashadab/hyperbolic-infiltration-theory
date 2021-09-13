@@ -35,7 +35,7 @@ hyperbolic-infiltration-theory requires the following packages to function:
 
 
 ### Quick Usage
-After cloning the repository and installing the required libraries, run the python files corresponding to the figure numbers as given in the paper. Codes can be run either directly or on an IDE such as Anaconda Spyder. `*supporting_tools.py*` is the file containing the auxillaries. Figure 14 and 15 correspond to a Hydrus 1D file for infiltration in two-layered soil.
+After cloning the repository and installing the required libraries, run the python files corresponding to the figure numbers as given in the paper. Codes can be run either directly or on an IDE such as Anaconda Spyder. `supporting_tools.py` is the file containing the auxillaries. Figure 14 and 15 correspond to a Hydrus 1D file for infiltration in two-layered soil.
 
 ### Non-dimensionalization
-The depth coordinate <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1"> $`z`$ is scaled with characteristic length $`z_0`$, time is scaled with characteristic time $`z_0/f_c`$ and infiltration rate $`I(t)`$ (or volumetric flux) is scaled with the infiltration capacity $`f_c`$. Therefore, the dimensionless variables are $`z'=z/z_0`$, $`t'=tf_c/z_0`$, and $`f'=I(t)/f_c`$.
+The depth coordinate $`z`$ is scaled with characteristic length $`z_0`$, time is scaled with characteristic time $`z_0/f_c`$ and infiltration rate $`I(t)`$ (or volumetric flux) is scaled with the infiltration capacity $`f_c`$. Therefore, the dimensionless variables are $`z'=z/z_0`$, $`t'=tf_c/z_0`$, and $`f'=I(t)/f_c`$.
