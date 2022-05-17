@@ -1,7 +1,7 @@
 # Gravity driven infiltration with the development of a saturated region
 ## Authors
-- Mohammad Afzal Shadab
-- Marc Andre Hesse
+- Mohammad Afzal Shadab (mashadab@utexas.edu)
+- Marc Andre Hesse (mhesse@jsg.utexas.edu)
 
 ## Affiliation
 Oden Institute for Computational Engineering and Sciences / Jackson School of Geosciences / University of Texas Institute for Geophysics
@@ -11,7 +11,8 @@ The University of Texas at Austin
 Hyperbolic (kinematic wave) analysis in infiltration theory is a technique to estimate the ponding time and runoff estimates in low-textured soils. The proposed theory can be applied to general soil profiles. The codes provide the analytical solutions for infiltration in soils with two-layer, exponential and power-law porosity decay profiles. The results have been validated with numerical solver and Hydrus simulations. The codes given correspond to the figures from the research paper. 
 
 ## Citation
-Shadab, M.A. and Hesse, M.A., 202X. Gravity driven infiltration with the development of a saturated region, Water Resources Research (submitted).
+[1] Shadab, M.A. and Hesse, M.A., 202X. Gravity driven infiltration with the development of a saturated region, Water Resources Research (in preparation).
+[2] Shadab, M.A. and Hesse, M.A., 2021, December. Fluid Infiltration in Unsaturated Porous Medium with The Development of a Saturated Region. In AGU Fall Meeting 2021. AGU.
 
 ## Getting Started
 
