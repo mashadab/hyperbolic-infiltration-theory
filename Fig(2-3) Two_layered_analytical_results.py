@@ -12,12 +12,12 @@ s_wr = 0.0 #Residual water saturation
 s_gr = 0.0 #Residual gas saturation
 phi_U = 0.5; phi_L = 0.2 #Porosity of upper and lower layer
 theta_L = s_gr*phi_L #setting the saturation in domain
-zsurface = -1    #dimensionless surface height
-z0 = 0.0         #dimensionless location of jump
+zsurface = 0    #dimensionless surface height
+z0 = 1.0         #dimensionless location of jump
 R = 0.64 #Array of dimensionless rainfall rates
 
 #spatial discretization
-zbottom = 1
+zbottom = 2
 Nz = 1000
 zc   = np.linspace(zsurface,zbottom,Nz) #depth array
 phi  = phi_U*np.ones((len(zc),1)) #porosity vector: upper layer
@@ -100,8 +100,8 @@ ax2.fill_betweenx(zc,(1-phi)[:,0], facecolor=brown,label=r'$\phi_s$')
 
 res = solve_ivp(rhs_stage2, (0, 0.005), [-1e-14,1e-15],t_eval=[0.005])
 S_w_analy_int = (1-s_gr)*np.ones((Nz,1))
-S_w_analy_int[zc<=res.y[0,0]] = theta_U/phi_U
-S_w_analy_int[zc>=res.y[1,0]] = theta_L/phi_L
+S_w_analy_int[zc<=res.y[0,0]+z0] = theta_U/phi_U
+S_w_analy_int[zc>=res.y[1,0]+z0] = theta_L/phi_L
 
 S_w_analy_int_combined = np.hstack([S_w_analy_int_combined,S_w_analy_int])
 
@@ -111,8 +111,8 @@ ax3.fill_betweenx(zc,(1-phi)[:,0], facecolor=brown,label=r'$\phi_{soil}$')
 
 res = solve_ivp(rhs_stage2, (0, t_interest[3]-ts), [-1e-14,1e-15],t_eval=[t_interest[3]-ts])
 S_w_analy_int = (1-s_gr)*np.ones((Nz,1))
-S_w_analy_int[zc<=res.y[0,0]] = theta_U/phi_U
-S_w_analy_int[zc>=res.y[1,0]] = theta_L/phi_L
+S_w_analy_int[zc<=res.y[0,0]+z0] = theta_U/phi_U
+S_w_analy_int[zc>=res.y[1,0]+z0] = theta_L/phi_L
 
 S_w_analy_int_combined = np.hstack([S_w_analy_int_combined,S_w_analy_int])
 
@@ -122,8 +122,8 @@ ax4.fill_betweenx(zc,(1-phi)[:,0], facecolor=brown,label=r'$\phi_s$')
 
 res = solve_ivp(rhs_stage2, (0, tp-ts), [-1e-14,1e-15],t_eval=[tp-ts])
 S_w_analy_int = (1-s_gr)*np.ones((Nz,1))
-S_w_analy_int[zc<=res.y[0,0]] = theta_U/phi_U
-S_w_analy_int[zc>=res.y[1,0]] = theta_L/phi_L
+S_w_analy_int[zc<=res.y[0,0]+z0] = theta_U/phi_U
+S_w_analy_int[zc>=res.y[1,0]+z0] = theta_L/phi_L
 
 S_w_analy_int_combined = np.hstack([S_w_analy_int_combined,S_w_analy_int])
 
@@ -136,8 +136,8 @@ ybot = res.y[1,0]
 
 res = solve_ivp(rhs_stage3, (0, t_interest[5]-tp), [ytop,ybot],t_eval=[t_interest[5]-tp])
 S_w_analy_int = (1-s_gr)*np.ones((Nz,1))
-S_w_analy_int[zc<=res.y[0,0]] = theta_U/phi_U
-S_w_analy_int[zc>=res.y[1,0]] = theta_L/phi_L
+S_w_analy_int[zc<=res.y[0,0]+z0] = theta_U/phi_U
+S_w_analy_int[zc>=res.y[1,0]+z0] = theta_L/phi_L
 
 S_w_analy_int_combined = np.hstack([S_w_analy_int_combined,S_w_analy_int])
 
