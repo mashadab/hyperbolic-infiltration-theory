@@ -27,7 +27,7 @@ Key points of the present work:
 <p align="center">
 <img src="./Figures/Cover.png" height="370">
 </p>
-Figure : Schematic showing gravity-driven infiltration in a soil with porosity $ \phi $ decay with depth. The colors blue, brown, white refer to water, soil and gas respectively. A fully saturated region $ \Omega(t) $ develops within an otherwise unsaturated domain. The saturated-unsaturated region boundary $ \partial \Omega (t) $ has a boundary condition of water-gas pressure equivalence. The saturated region expands with time as the boundary $ \partial \Omega (t) $ moves in outward direction.
+Figure : Schematic showing gravity-driven infiltration in a soil with porosity $ \phi $ decay with depth. The colors blue, brown, white refer to water, soil and gas respectively. A fully saturated region Ω(t) develops within an otherwise unsaturated domain. The saturated-unsaturated region boundary ∂Ω(t) has a boundary condition of water-gas pressure equivalence. The saturated region expands with time as the boundary ∂Ω(t) moves in outward direction.
 
 ### Dependences
 
@@ -42,4 +42,4 @@ hyperbolic-infiltration-theory requires the following packages to function:
 After cloning the repository and installing the required libraries, run the python files corresponding to the figure numbers as given in the paper. Codes can be run either directly or on an IDE such as Anaconda Spyder. `supporting_tools.py` is the file containing the auxillaries. Figure 14 and 15 correspond to a Hydrus 1D file for infiltration in two-layered soil. Use `%matplotlib qt` to change the plotting from inline to separate window in Spyder. The resulting plots are collected in the folder `Figures`.
 
 ### Non-dimensionalization
-The depth coordinate `z` is scaled with characteristic length `z_0`, time is scaled with characteristic time $`z_0/f_c`$ and infiltration rate $`I(t)`$ (or volumetric flux) is scaled with the infiltration capacity $`f_c`$. Therefore, the dimensionless variables are $`z'=z/z_0`$, $`t'=tf_c/z_0`$, and $`f'=I(t)/f_c`$.
+The depth coordinate `z` is scaled with characteristic length `z_0`, time is scaled with characteristic time `z_0/f_c` and infiltration rate `I(t)` (or volumetric flux) is scaled with the infiltration capacity `f_c`. Therefore, the dimensionless variables are `z'=z/z_0`, `t'=tf_c/z_0`, and $`f'=I(t)/f_c`$.
